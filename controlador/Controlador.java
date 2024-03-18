@@ -5,8 +5,9 @@ import modelo.Hospital;
 import modelo.Mantenimientos;
 
 public class Controlador {
-    public static void main(String[] args) {
-        /*Hospital hospital = new Hospital("Nombre Hospital", "Dirección");
+    public void iniciar() {
+        /*ejemplo
+        Hospital hospital = new Hospital("Nombre Hospital", "Dirección");
         Mantenimientos mantenimientos = new Mantenimientos("Tipo Mantenimiento", 5);
 
         int cantidadInstrumentos = 5;
@@ -20,4 +21,5 @@ public class Controlador {
         Cita cita = hospital.agendarCita(dia);
         System.out.println("Cita agendada para el día: " + cita.getDia() + " a las " + cita.getHora());*/
     }
+
 }
